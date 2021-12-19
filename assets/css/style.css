@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+/*========= HEADER =========*/
+
+.topbar-responsive {
+    padding: 1rem 1.5rem;
+}
+
+.header {
+    background: rgba(255, 255, 255, 0.976);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.07);
+    border-radius: 0px;
+}
+
+.topbar-responsive .topbar-responsive-logo {
+    color: black;
+    vertical-align: middle;
+}
+
+.menu-item {
+    margin: 0px 0 0px 35px;
+}
+
+.topbar-responsive .menu li:last-of-type {
+    margin-right: 0;
+}
+
+.topbar-responsive .menu a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: right;
+    color: #202020;
+    transition: color 0.15s ease-in;
+}
+
+.topbar-responsive .menu a:hover {
+    color: #c6d1d8;
+}
+
+@media screen and (max-width: 39.9375em) {
+    .topbar-responsive .menu a {
+        padding: 0.875rem 0;
+    }
+}
+
+.topbar-responsive .menu .topbar-responsive-button {
+    color: black;
+    border-color: black;
+    border-radius: 5000px;
+    transition: color 0.15s ease-in, border-color 0.15s ease-in;
+}
+
+.topbar-responsive .menu .topbar-responsive-button:hover {
+    color: black;
+    border-color: black;
+}
+
+@media screen and (max-width: 39.9375em) {
+    .topbar-responsive .menu .topbar-responsive-button {
+        width: 100%;
+        margin: 0.875rem 0;
+    }
+}
+
+@media screen and (max-width: 39.9375em) {
+    .topbar-responsive {
+        padding: 0.75rem;
+    }
+    .topbar-responsive .top-bar-title {
+        position: relative;
+        width: 100%;
+    }
+    .topbar-responsive .top-bar-title span {
+        position: absolute;
+        right: 0;
+        color: black;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 0.25rem 0.45rem;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    .topbar-responsive .top-bar-title span .menu-icon {
+        margin-bottom: 4px;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes slideDown {
+    0% {
+        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%);
+    }
+    100% {
+        -webkit-transform: translateY(0%);
+        transform: translateY(0%);
+    }
+}
+
+@keyframes slideDown {
+    0% {
+        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%);
+    }
+    100% {
+        -webkit-transform: translateY(0%);
+        transform: translateY(0%);
+    }
+}
+
+@media screen and (max-width: 39.9375em) {
+    .topbar-responsive-links {
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        -webkit-animation-duration: 0.5s;
+        animation-duration: 0.5s;
+        width: 100%;
+        -webkit-animation: fadeIn 1s ease-in;
+        animation: fadeIn 1s ease-in;
+    }
+}
+
+
+/*========= HEADER =========*/
+
+
+/*========= HOME =========*/
+
+.home-content {
+    justify-content: space-between;
+}
+
+.home {
+    padding: 220px 0 100px 0;
+}
+
+.home-info__title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 56px;
+    letter-spacing: 0.99px;
+    color: #202020;
+    margin-bottom: 22px;
+}
+
+.home-info__text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 31px;
+    letter-spacing: 0.231px;
+    color: #202020;
+    margin-bottom: 15px;
+}
+
+.home-info__btn-1 {
+    padding: 10px 15px;
+    background: #2164E1;
+    border-radius: 6px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.home-info__btn-2 {
+    padding: 10px 15px;
+    margin-left: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+    background: #30B467;
+    border-radius: 6px;
+}
+
+li {
+    list-style: none;
+}
+
+.home-company {
+    margin-top: 150px;
+}
+
+.home-company__ul {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-company__list {
+    margin: 0 0px 20px 0px;
+}
+
+@media(max-width:992px) {
+    .home {
+        padding: 70px 0;
+    }
+    .home-content {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .home-img {
+        margin-top: 50px;
+    }
+    .home-company {
+        margin-top: 50px;
+    }
+    .home-company__ul {
+        justify-content: center;
+        gap: 40px;
+        align-items: center;
+    }
+}
+
+
+/*========= HOME =========*/
+
+
+/*========= IDEA =========*/
+
+.idea {
+    padding: 70px 0;
+}
+
+.idea-content {
+    justify-content: space-between;
+}
+
+.idea-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 39px;
+    line-height: 49px;
+    letter-spacing: 0.858px;
+    color: #202020;
+}
+
+.idea-title span {
+    color: orange;
+}
+
+.idea-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 31px;
+    letter-spacing: 0.231px;
+    color: #202020;
+}
+
+.idea-list {
+    gap: 15px;
+}
+
+.idea-list__item {
+    padding: 22px 35px;
+    background: #F3F3F3;
+    border-radius: 6px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 34px;
+    text-align: center;
+    letter-spacing: 0.405px;
+    color: #202020;
+}
+
+@media(max-width:992px) {
+    .idea-content {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .idea-list {
+        justify-content: center;
+    }
+    .idea-img {
+        margin-bottom: 50px;
+    }
+}
+
+
+/*========= IDEA =========*/
