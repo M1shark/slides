@@ -314,3 +314,81 @@ li {
 
 
 /*========= IDEA =========*/
+
+
+/*========= NATIVE =========*/
+
+.native {
+    padding: 90px 0;
+}
+
+.native-content {
+    justify-content: space-between;
+}
+
+.native-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 39px;
+    line-height: 49px;
+    letter-spacing: 0.858px;
+    color: #202020;
+    margin-bottom: 25px;
+}
+
+.native-title span {
+    color: #2164E1;
+}
+
+.native-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 31px;
+    letter-spacing: 0.231px;
+    color: #202020;
+    margin-bottom: 25px;
+}
+
+.native-list {
+    gap: 20px;
+}
+
+.native-list li {
+    background: #F3F3F3;
+    border-radius: 999px;
+    padding: 0px 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 31px;
+    text-align: center;
+    color: #202020;
+}
+
+.native-img {
+    margin-top: -50px;
+}
+
+@media(max-width:992px) {
+    .native {
+        padding: 50px 0;
+    }
+    .native-content {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .native-list {
+        justify-content: center;
+    }
+    .native-img {
+        margin-top: 50px;
+    }
+}
+
+
+/*========= NATIVE =========*/
