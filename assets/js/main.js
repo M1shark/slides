@@ -22,3 +22,15 @@ function linkAction() {
     navMenu.classList.remove('show-menu')
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
+
+//sleder 
+
+$(document).ready(function() {
+    $('.reviews-slider').slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        prevArrow: '<img src="assets/img/slider/prev.png">',
+        nextArrow: '<img src="assets/img/slider/next.png">'
+    })
+});
